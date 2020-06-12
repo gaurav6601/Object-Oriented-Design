@@ -7,7 +7,7 @@ this make our Obj Class to depend upon concrete implementation of some class<br>
 
 
 like i want to design Class for Kia Seltos <br>
-<img src="../../src/Kia-Seltos.jpg"><br>
+<img src="../src/Kia-Seltos.jpg"><br>
 
 I would use KiaSeltos.java <br>
 but if i want to make different variant <br>
