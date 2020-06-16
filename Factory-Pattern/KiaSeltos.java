@@ -1,4 +1,4 @@
-Class KiaSeltos{
+class KiaSeltos{
     int horsepower
     int engine;
     int torque;
@@ -14,7 +14,7 @@ Class KiaSeltos{
 
 };
 
-Class Client{
+class Client{
     public static void main(){
         KiaSeltos mynewcar = new KiaSeltos();
         mynewcar.run();
