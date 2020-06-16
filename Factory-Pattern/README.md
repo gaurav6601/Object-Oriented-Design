@@ -17,9 +17,9 @@ I have to change my client code every time I release new Variant<br>
 so I would use KiaSeltosFactory in which i would subclass KiaSeltos_variant and make my own variant<br>
 which is KiaSeltosFactory.java<br>
 
-We use inheritance to change engine in KiaSeltosFactory 
-factory class return abstarct or a interface type 
-superclass doesn't know which type of variant is returned
-the superclass has all implementation other than creational methods
-responsibility of implementing creational methods is of subclass
+We use inheritance to change engine in KiaSeltosFactory  <br>
+factory class return abstarct or a interface type  <br>
+superclass doesn't know which type of variant is returned <br>
+the superclass has all implementation other than creational methods they may provide default implementation <br>
+responsibility of implementing creational methods is of subclass <br>
 
