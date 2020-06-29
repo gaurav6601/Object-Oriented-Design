@@ -45,7 +45,7 @@ Any derived class should be able to substitute its parent class without consumer
 Every class that implements an interface must be able to substitute any reference through the code that implements the same interface <br>
 Every part of the code should get expected result no matter what instance of class you sent to it, given it implements the same interface <br>
 
-<img src="src/liskov.jpg"></img>
+<img src="../src/liskov.jpg"></img>
 
 Basically it tells us when to use inheritance or when to not <br>
 
