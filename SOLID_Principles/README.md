@@ -35,6 +35,21 @@ example would be open source libraries you only code around them use their inter
 after it got used by many people it reached stable<br>
 <br>
 if you change in one class it effect other behaviour like mode of payment you changed it or want more type <br>
-payment then you add function in payment class and in main you change again for accessing methods <br>
+payment then you add function in payment class and in main(client side) you change again for accessing methods <br>
 generally we use Factory pattern for this kind of cases<br>
+
+
+<h3>Liskov Substitution principle</h3>
+
+Any derived class should be able to substitute its parent class without consumer knowing it <br>
+Every class that implements an interface must be able to substitute any reference through the code that implements the same interface <br>
+Every part of the code should get expected result no matter what instance of class you sent to it, given it implements the same interface <br>
+
+<img src="src/liskov.jpg"></img>
+
+Basically it tells us when to use inheritance or when to not <br>
+
+lets look at example of rectangle and square we know that square is a rectangle <br>
+which means we have a is a relation so we can sub child square to rectangle <br>
+
 
