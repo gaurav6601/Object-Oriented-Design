@@ -53,3 +53,9 @@ lets look at example of rectangle and square we know that square is a rectangle 
 which means we have a is a relation so we can sub child square to rectangle <br>
 
 
+<a href="http://stg-tud.github.io/sedc/Lecture/ws13-14/3.3-LSP.html#mode=document">An awesome document for liskov substitution</a>
+
+<br>
+
+
+
