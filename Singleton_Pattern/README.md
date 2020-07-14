@@ -19,19 +19,19 @@ and synchronized is expensive<br>
 
 So solution to that we can use double check method like <br>
 <br>
-<code>
-public static ThreadSafeSingleton getInstanceUsingDoubleLocking(){
-    if(instance == null){
-        // here we are synchronizing only when needed and this is only one time when we create instance
-        synchronized (ThreadSafeSingleton.class) {
-            if(instance == null){
-                instance = new ThreadSafeSingleton();
-            }
-        }
-    }
-    return instance;
-} 
-</code>
+<code><br>
+public static ThreadSafeSingleton getInstanceUsingDoubleLocking(){<br>
+    if(instance == null){<br>
+        // here we are synchronizing only when needed and this is only one time when we create instance<br>
+        synchronized (ThreadSafeSingleton.class) {<br>
+            if(instance == null){<br>
+                instance = new ThreadSafeSingleton();<br>
+            }<br>
+        }<br>
+    }<br>
+    return instance;<br>
+} <br>
+</code><br>
 <br>
 
 <a hrer="https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples">here is an awesome link for singleton pattern</a><br>
