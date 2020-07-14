@@ -19,7 +19,7 @@ and synchronized is expensive<br>
 
 So solution to that we can use double check method like <br>
 <br>
-<code><br>
+<br>
 public static ThreadSafeSingleton getInstanceUsingDoubleLocking(){<br>
     if(instance == null){<br>
         // here we are synchronizing only when needed and this is only one time when we create instance<br>
@@ -31,7 +31,7 @@ public static ThreadSafeSingleton getInstanceUsingDoubleLocking(){<br>
     }<br>
     return instance;<br>
 } <br>
-</code><br>
+<br>
 <br>
 
 <a hrer="https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples">here is an awesome link for singleton pattern</a><br>
