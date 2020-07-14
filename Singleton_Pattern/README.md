@@ -34,6 +34,6 @@ public static ThreadSafeSingleton getInstanceUsingDoubleLocking(){<br>
 <br>
 <br>
 
-<a hrer="https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples">here is an awesome link for singleton pattern</a><br>
+<a href="https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples">here is an awesome link for singleton pattern</a><br>
 
 it includes a lot of varieties of singleton pattern<br>
