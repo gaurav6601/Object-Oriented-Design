@@ -21,15 +21,15 @@ So solution to that we can use double check method like <br>
 <br>
 <br>
 public static ThreadSafeSingleton getInstanceUsingDoubleLocking(){<br>
-    if(instance == null){<br>
-        // here we are synchronizing only when needed and this is only one time when we create instance<br>
-        synchronized (ThreadSafeSingleton.class) {<br>
-            if(instance == null){<br>
-                instance = new ThreadSafeSingleton();<br>
-            }<br>
-        }<br>
-    }<br>
-    return instance;<br>
+    &nbsp;if(instance == null){<br>
+    &nbsp;   &nbsp; // here we are synchronizing only when needed and this is only one time when we create instance<br>
+    &nbsp;    &nbsp;synchronized (ThreadSafeSingleton.class) {<br>
+    &nbsp;        &nbsp;if(instance == null){<br>
+    &nbsp;       &nbsp;   &nbsp;  instance = new ThreadSafeSingleton();<br>
+    &nbsp;       &nbsp; }<br>
+    &nbsp;    &nbsp;}<br>
+    &nbsp;}<br>
+    &nbsp;return instance;<br>
 } <br>
 <br>
 <br>
